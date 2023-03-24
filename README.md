@@ -9,7 +9,7 @@ and Update the Database are completed in NoSQL_setup.ipynb. The 3rd section is E
 
 ## Part 1: Database and Jupyter Notebook Set Up 
 
-For this part, using the NoSQL_setup.ipynb, first set was to import the data provided in the establishments.json from Terminal or Gitbash by naming the database uk_food and the collection establishments. Next, we imported the dependencies and created an instance of the Mongo Client.
+For this part, using the NoSQL_setup.ipynb, first step was to import the data provided in the establishments.json from Terminal by naming the database uk_food and the collection establishments. Next, we imported the dependencies and created an instance of the Mongo Client.
 
 Confirmed that the database was created and loaded the data properly by:
 
