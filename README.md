@@ -59,3 +59,6 @@ For this question, used the aggregation method. The Pipeline consisted of:
 - group query - grouped the matches by Local Authority.
 - sort values - sorted the matches from highes to lowest
 Returned results of the documents were based on the aggregation of the Pipeline and then used pprint to print the first 10 results. Then, converted the results to a Pandas DataFrame, printed the number of rows in the DataFrame, and displayed the first 10 rows.
+
+
+<img width="309" alt="Screenshot 2023-03-23 at 10 50 17 PM" src="https://user-images.githubusercontent.com/120361200/227412162-311f1f40-d06f-4a75-b548-2c9d07c4d07b.png">
