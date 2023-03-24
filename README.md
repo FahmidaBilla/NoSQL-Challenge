@@ -13,9 +13,9 @@ For this part, using the NoSQL_setup.ipynb, first set was to import the data pro
 
 Confirmed that the database was created and loaded the data properly by:
 
-    - List the databases you have in MongoDB. Confirm that uk_food is listed.
-    - List the collection(s) in the database to ensure that establishments is there.
-    - Find and display one document in the establishments collection using find_one and display with pprint.
+- List the databases you have in MongoDB. Confirm that uk_food is listed.
+- List the collection(s) in the database to ensure that establishments is there.
+- Find and display one document in the establishments collection using find_one and display with pprint.
 
 Assigned the establishments collection to a variable to prepare the collection for use.
 
@@ -24,18 +24,18 @@ Assigned the establishments collection to a variable to prepare the collection f
 
 The magazine editors have some requested modifications for the database before performing any queries or analysis for them. Make the following changes to the establishments collection:
 
-    1. An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked to include it in the analysis. So, the new restaurant 'Penang Flavours' information was added to the database.
-    2. Updated the new restaurant BusinessTypeID by finding the BusinessTypeID for "Restaurant/Cafe/Canteen" and returning only the BusinessTypeID and BusinessType fields.
-    3. The magazine is not interested in any establishments in Dover, so checked how many documents contain the Dover Local Authority. Then, removed any establishments within the Dover Local Authority from the database, and checked the number of documents to ensure they were deleted.
-    4. Converted latitude and longitude to decimal numbers form stings.
+1. An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked to include it in the analysis. So, the new restaurant 'Penang Flavours' information was added to the database.
+2. Updated the new restaurant BusinessTypeID by finding the BusinessTypeID for "Restaurant/Cafe/Canteen" and returning only the BusinessTypeID and BusinessType fields.
+3. The magazine is not interested in any establishments in Dover, so checked how many documents contain the Dover Local Authority. Then, removed any establishments within the Dover Local Authority from the database, and checked the number of documents to ensure they were deleted.
+4. Converted latitude and longitude to decimal numbers form stings.
 
 
 ## Part 3: Exploratory Analysis
 
 Eat Safe, Love has specific questions which they want to look into to help them find the locations they wish to visit and avoid. Some notes to be aware of while exploring the dataset:
 
-    - RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating. Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating.
-    - The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
+- RatingValue refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating. Note: This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating.
+- The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
 
 Questions the magazine is interested in are as follows: 
 
